@@ -12,7 +12,7 @@ class Program
         Console.WriteLine("Введите количество персонажей:");
         int numberOfEnemies = int.Parse(Console.ReadLine());
 
-        // Создаем список врагов для удобства удаления
+        // Создаем список врагов 
         List<GameCharacter> enemies = new List<GameCharacter>();
         for (int i = 0; i < numberOfEnemies; i++)
         {
